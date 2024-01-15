@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <img src="./img/logo.png" alt="" />
+          <div class="nav-links">
+            <a href="#" class="nav-link menuLink">Menu</a>
+            <a href="#" class="nav-link orderLink">Orders</a>
+            <a href="#" class="nav-link adminLink">Admin</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="order">
+      <div class="container">
+        <h1>MY ORDERS</h1>
+        <div class="order">
+            <!-- <div class="order-list">
+                <img src="./img/menu.png" alt="" class="order-img">
+                <div class="order-txt">
+                    <p class="order-title">cappuchino</p>
+                    <p class="order-time">12:55</p>
+                </div>
+                <div class="order-info">
+                    <button class="del-order">delete order</button>
+                    <div class="count">
+                        <p class="minus count-bg">-</p>
+                        <p class="quantity">1<span class="x"> x</span></p>
+                        <p class="plus count-bg">+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="order-list">
+                <img src="./img/menu.png" alt="" class="order-img">
+                <div class="order-txt">
+                    <p class="order-title">cappuchino</p>
+                    <p class="order-time">12:55</p>
+                </div>
+                <div class="order-info">
+                    <button class="del-order">delete order</button>
+                    <div class="count">
+                        <p class="minus count-bg">-</p>
+                        <p class="quantity">1<span class="x"> x</span></p>
+                        <p class="plus count-bg">+</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <button class="order-btn">to order</button>
+
+    </section>
+    <section id="menu">
+      <div class="container">
+        <h1>MENU</h1>
+        <div class="menu">
+          <div class="card"></div>
+        </div>
+      </div>
+    </section>
+    <section id="admin">
+      <div class="container">
+        <h1>CREATE PRODUCT</h1>
+        <div class="admin">
+          <input type="text" placeholder="image URL" class="image-url" />
+          <input type="text" placeholder="food name" class="food-name" />
+          <input type="number" placeholder="price" class="input-price" />
+          <button class="create-btn">create</button>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="modal">
+        <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+        <p class="modal-title">Вы уверены, что <br>хотите удалить?</p>
+        <div class="btn-div">
+          <button class="modal-del">Да</button>
+          <button class="modal-close">Нет</button>
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./menu.js"></script>
+    
+  </body>
+</html>
